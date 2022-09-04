@@ -1,0 +1,115 @@
+Out-of-the-box features:
+
+Get Started
+----------------------------------------
+User registration 
+Authentication and account registration 
+Dual factor authentication 
+Update contact info 
+Greetings and help 
+
+Easy Discovery
+---------------------------------------------------
+Branch locator 
+ATM locator 
+FX rate inquiry
+Credit card recommendation 
+View interest rates 
+
+Everyday Tasks
+-------------------------------------------------------------------
+Transfer to own accounts 
+Transfer to third party 
+Mutual fund and equity transactions
+Remote check deposit 
+Rewards redemption 
+Bill payment and presentment 
+Add / modify / delete payee
+P2P and recurring payments
+Open term deposit
+
+Service & Support
+----------------------------------------------------------------------------
+Report lost or stolen card 
+Past statement request
+Stop payment of check 
+Request checkbook
+Request for callback
+Request for human agent 
+
+Retail banking
+---------------------------------------------------------------
+User and Account registration
+Dual factor authentication
+Branch and ATM locator
+Spending analysis
+Apply for new services and request checkbook, call back
+Report lost or stolen card
+
+Wealth and Asset Management
+--------------------------------------------------------------------
+Intelligent Risk Assessment questions
+Portfolio rebalancing suggestion
+Portfolio performance analysis
+Mutual fund and equity transactions
+
+Markets and Exchanges
+------------------------------------------------------------------------------
+Currency rates data and rate alerts
+Real-time financial market data
+
+2. Authentication
+This is a process where the user needs to verify their identity and is often used for bank chatbots.
+
+Generated authentication tokens verify data that is requested through a chatbot. After verifying the user’s identity, the App generates a secure authentication token, along with the request.
+
+Another step of security measures is authentication timeout. A generated token can be used for only a certain amount of time, and after that, the application has to make a new one.
+
+Two-way verification is another step where the user is asked to verify their email address or to receive a code via SMS. This is a precaution step to verify that the user of that account is the real user that is using the chatbot.
+
+3. Authorization
+
+With this step, the process of getting information is to grant access to the user by executing a given task. For example, a chatbot will send you a push notification on your smartphone, and it will tell you to press this number to verify your identity.
+
+This is another way to make sure that the right person is using the chatbot and making sure that all the information will be secured.
+
+
+YES ROBOT is your 24*7 Personal Banking Assistant. Just open Facebook Messenger in your mobile phone, search for YES ROBOTand start chatting. No need to download another app or create an additional login!
+
+You can check balance, recent transactions, send money, recharge your phone, pay your bills, check loan eligibility, hotlist debit card and apply for 60+YES BANK products and services on YES ROBOT
+
+So start chatting and experience YES BANK Bot with over 20+Banking Services anytime, anywhere!
+
+
+
+SECTION 3: TELLER IS THE FIRST TRULY SCALABLE FINANCIAL COACHING TOOL
+How can banks provide financial education at scale and also address the many challenges posed by existing models of educational programs? The answer is through mobile messaging applications such as SMS, Facebook Messenger, and Whatsapp.
+
+In the past few years, messaging applications have grown exponentially, and now have over four billion monthly active users.7 Adding in SMS, messaging apps are available to nearly everyone in the world. After all, unlike smartphone mobile applications, even the most basic feature phones are capable of sending and receiving messages. In this same time frame, two very important developments have taken hold:
+
+The opening of messaging platforms for developers — As of two years ago, it was impossible to build a messaging application ‘inside’ one of the popular messaging platforms. However, more recently, the major tech companies have recognized the same potential that we are highlighting right now: businesses and other organizations will want to communicate with users through messaging. Accordingly, many of the major messaging platforms including Facebook Messenger, Line, and WeChat have already opened the gates, and many others will follow in the next few quarters.
+The rise of ‘natural language understanding’ engines — Just a few years ago, if you wanted to build any kind of chat-based software, you would need to hire PhD’s to help you build the artificial intelligence backend of your application. These days, major tech companies are racing to release their cutting edge ’NLU’ tools to give developers access to the same technology that powers IBM Watson and Amazon Alexa.
+With these new NLU tools, and messaging apps to deploy them, businesses are exploring brand new ways to provide services. These new services are commonly called ‘chatbots.’
+
+Teller is a messaging platform, or ‘chatbot,’ that uses natural language understanding to help banks and other financial institutions, on-board, educate, and provide continuing support to their customers. A potential bank customer can chat with Teller to learn step-by-step how to open a bank account, set savings goals, build their income, and more.
+
+Teller directly addresses many of the previous hurdles to chatbots.
+
+Location agnostic — users can message their financial institution from anywhere in the world
+Automated — because the entire system is automated, a chatbot can talk to ten or tens of thousands of customers at once (with only minimal staff needed for escalations)
+Time independent — users can start a conversation, and if they get busy, resume hours or days later whenever they have time
+Language independent — Teller will be available in multiple languages such as English, Hindi, Swahili, and others
+Low barrier to use — talking to a real person in a bank can be intimidating, while chatting with a virtual banking assistant through a messaging app is much more approachable
+Because no humans are involved, and the technology is hosted on cloud services (like Amazon Web Services), the cost for providing these tools is extremely low. Teller is currently exploring pilots with major financial institutions in both South Asia and Africa. These financial institutions are leveraging the Teller technology to scalably provide quick and convenient customer service and education to their customers. They are also excited at the prospect of using Teller to expand their reach to new customers.
+
+CONCLUSION
+Existing research, including and especially work done by the DFS Lab members, indicates that increasing financial literacy and access to financial services provide an achievable solution to improving economic well-being. Banks have historically been unable or unwilling to take on this challenge based on their own internal cost-benefit analyses. However, recent developments like NLU technology and the opening of messaging applications have created an opportunity. Teller allows banks to cheaply and scalably provide financial coaching and guidance to new and existing customers. With the help of Teller, financial institutions will finally be able to offer quick, convenient, and personalized financial guidance to anyone in the world.
+
+Footnotes:
+1. http://gflec.org/wp-content/uploads/2015/11/Finlit_paper_16_F2_singles.pdf 2 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3753821/
+2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3753821/
+3. http://www.apa.org/monitor/oct01/wealthhealth.aspx
+4. http://www.urban.org/sites/default/files/publication/49116/2000178-How-are-Income-and-Wealth-Linked- to-Health-and-Longevity.pdf
+5. http://www.nber.org/papers/w22633
+6. https://www.fdic.gov/consumers/community/research/qualitativeresearch_may2016.pdf
+ 7. https://research.hubspot.com/charts/messaging-apps-have-over-4b-monthly-active-users

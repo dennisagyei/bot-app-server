@@ -1,0 +1,61 @@
+/* **
+-- BotUI styling
+** */
+.botui-container,
+.botui-messages-container {
+	background: transparent;
+}
+
+.human.botui-message-content.text {
+	background: white;
+	color: color(var(--brand--color) shade(25%));
+}
+
+.botui-message-content {
+	font-size: 1rem;
+	font-family: var(--font--family);
+	background: color(var(--brand--color) shade(25%));
+	color: white;
+}
+
+.botui-messages-container {
+	max-height: 55vh;
+	overflow-y: auto;
+}
+
+.botui-actions-buttons-button {
+	background-color: color(var(--button--color));
+	font-size: 1.2rem ;
+	font-family: var(--font--family);
+	font-weight: bold;
+	transition: 300ms ease-in-out;
+	
+	&:focus {
+		color: color(var(--button--color));
+		background-color: white;
+	}
+	
+	&:not(:focus) {
+		box-shadow: none;
+	}
+}
+
+.botui-actions-text-input {
+	color: var(--input--color);
+	font-size: 1.2rem ;
+	border-bottom: solid 2px currentColor;
+	font-family: var(--font--family);
+	font-weight: bold;
+	transition: 300ms ease-in-out;
+	&:not(:focus) {
+		font-style: italic;
+	}
+}
+
+.botui-action-text-icon {
+	color: currentColor;
+}
+
+.bot-wrapper {
+	margin: 0 25%;
+}

@@ -1,0 +1,111 @@
+Bank APIs for Testing
+
+https://developer.swedbank.com/admin/login
+
+Username : dennisagyei
+Pwd         : New1234-
+
+API Key : biicmvfcp48k3vafperj7p
+
+apikey=l7d5cee34d00814b78beddce7be5e9e812
+
+
+
+
+
+https://console.truelayer.com/
+
+client_id=bankbot-uqng
+client_secret=biicmvfcp48k3vafperj7p
+
+
+Redirect URIs
+
+https://console.truelayer.com/redirect-page
+http://localhost:3000/callback
+
+This is your generated authentication link:
+https://auth.truelayer.com/?response_type=code&client_id=bankbot-uqng&nonce=376099249&scope=info%20accounts%20balance%20transactions%20cards%20offline_access&redirect_uri=https://console.truelayer.com/redirect-page&enable_mock=true&enable_oauth_providers=true&enable_open_banking_providers=false&enable_credentials_sharing_providers=true
+
+
+
+botui.message.add({
+    content: 'Lets Start Talking…',
+    delay: 1500,
+        }).then(function () {
+    botui.action.text({
+    action: {
+    placeholder: 'Say Hello', }
+    }
+    ).then(function (res) {
+    socket.emit('fromClient', { client : res.value }); // sends the message typed to server}).then(
+    function () {
+    socket.on('fromServer', function (data) { // recieveing a reply from server.
+    botui.message.add({
+        content: data.server,
+        delay: 500,
+        });
+    }); })
+ });
+ 
+ 
+ //socket.fromClient();
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  //res.render('error');
+  console.log(err.status);
+});
+
+
+--------------------------------------------------Setting Up Git Repo-------------------------------------------
+
+echo "# potomantolabs" >> README.md
+git init
+git add README.md
+git commit -m "2 commit"
+git remote add origin https://github.com/dennisagyei/potomantolabs.git
+git push -u origin master
+
+
+-----Next Time-------------------
+git add .
+git commit -m "2 commit"
+git push
+
+
+---------check git------------------------
+git config -l
+
+You can edit the ~/.gitignore path if required.
+git config --global core.excludesfile .gitignore
+
+vi ~/.gitignore
+
+
+------------------------------shipitjs --------------------------------------------------------------------------
+Install shipit command line tools and shipit-deploy in your project
+
+npm install --save-dev shipit-cli
+npm install --save-dev shipit-deploy
+
+setup ssh keys on remote machine
+
+ssh-keygen
+
+Copying Public Key Using ssh-copy-id
+
+ssh-copy-id root@labs.potomanto.tech

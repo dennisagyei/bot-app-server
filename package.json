@@ -1,0 +1,35 @@
+{
+  "name": "Bot App Server",
+  "version": "0.0.1",
+  "description": "Bot Application Server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Dennis Agyei <dennisagyei@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.2.0",
+    "body-parser": "^1.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.5.1",
+    "helmet": "^3.21.2",
+    "method-override": "^2.0.2",
+    "moment": "^2.18.1",
+    "mongodb": "^2.0.43",
+    "mongoose": "^4.6.3",
+    "openai": "^3.0.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2",
+    "woocommerce-api": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
